@@ -1,69 +1,39 @@
 ---
-layout: splash
-permalink: /
-header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/header-image.jpg
-  actions:
-    - label: "CV"
-      url: "/assets/files/cv.pdf"
-excerpt: >
-  Researcher at Korea University<br />
-  <small>Specializing in Computer Vision and Machine Learning</small>
-feature_row:
-  - image_path: /assets/images/research-thumb.jpg
-    alt: "Research"
-    title: "Research"
-    excerpt: "My research focuses on computer vision, deep learning, and their applications in real-world scenarios."
-    url: "/research/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/publications-thumb.jpg
-    alt: "Publications"
-    title: "Publications"
-    excerpt: "View my recent publications in top-tier journals and conferences."
-    url: "/publications/"
-    btn_class: "btn--primary"
-    btn_label: "See publications"
-  - image_path: /assets/images/projects-thumb.jpg
-    alt: "Projects"
-    title: "Projects"
-    excerpt: "Explore the projects I've worked on throughout my academic and professional career."
-    url: "/projects/"
-    btn_class: "btn--primary"
-    btn_label: "View projects"
+layout: home
+title: "Sungsu Ahn"
 ---
 
-{% include feature_row %}
+# Sungsu Ahn
+
+## MS/PhD Student at Korea University
 
 ## About Me
 
-I am a researcher at Korea University focusing on computer vision and machine learning. My research interests include [specific research topics]. I received my [degree] from [university] in [year].
+I am a MS/PhD student at Korea University focusing on computer architectures and system software. I completed my B.S. in electronic and electrical engineering from Sungkyunkwan University in 2024.
 
 ## Research Interests
 
-- Computer Vision
-- Deep Learning
-- [Other research interests]
+- Computer Architecture
+- System Software
+- Hardware-Software Co-design
 
-## Recent Publications
-
-1. **Paper Title** <br>
-   Authors, Conference/Journal, Year <br>
-   [Paper](link) | [Code](link) | [Project Page](link)
-
-2. **Paper Title** <br>
-   Authors, Conference/Journal, Year <br>
-   [Paper](link) | [Code](link) | [Project Page](link)
-
-## Highlighted Projects
+## Current Projects
 
 ### Project Name
-Brief description of the project, technologies used, and outcomes.
+Brief description of the project related to computer architecture or system software.
 
 ### Project Name
-Brief description of the project, technologies used, and outcomes.
+Brief description of another project, technologies used, and goals.
+
+[View All Projects](/projects/)
+
+## Education
+
+- **MS/PhD Student** - Korea University, 2024-Present
+- **B.S. in Electronic and Electrical Engineering** - Sungkyunkwan University, 2016-2024
 
 ## Contact
 
 Feel free to reach out to me at [sungsu_ahn@korea.ac.kr](mailto:sungsu_ahn@korea.ac.kr) for collaborations, inquiries, or opportunities.
+
+[View My CV](/assets/files/cv.pdf){: .cv-button }

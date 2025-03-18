@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Sungsu Ahn | Researcher & Developer"
+title: "Sungsu Ahn | MS/PhD Student"
 email: sungsu_ahn@korea.ac.kr
 description: >- 
-  Personal website of Sungsu Ahn, showcasing research, projects, 
-  publications, and professional experience in computer science and AI.
+  Personal website of Sungsu Ahn, MS/PhD student at Korea University,
+  focusing on computer architectures and system software.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: youkioh
@@ -43,7 +43,7 @@ repository: "youkioh/youkioh.github.io"
 author:
   name             : "Sungsu Ahn"
   avatar           : "/assets/images/profile.jpg" 
-  bio              : "Researcher at Korea University"
+  bio              : "MS/PhD Student at Korea University"
   location         : "Seoul, South Korea"
   email            : sungsu_ahn@korea.ac.kr
   links:
@@ -76,6 +76,16 @@ plugins:
   - jekyll-include-cache
   - jekyll-paginate
   - jekyll-sitemap
+
+# Ensure these plugins are compatible with GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Include the _pages directory
+include:
+  - _pages
 
 # Collections
 collections:
