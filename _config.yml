@@ -28,9 +28,15 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: youkioh
 
 # Build settings
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-locale: "en-US"
+theme: minima
+# Alternative options if you want to use Minimal Mistakes:
+# theme: minimal-mistakes-jekyll  # Only if properly installed as a gem
+# remote_theme: mmistakes/minimal-mistakes  # Use this option instead if theme isn't locally installed
+
+# Remove or comment out theme-specific settings that may cause errors
+# minimal_mistakes_skin: "air"
+
+locale: "ko-KR"
 repository: "youkioh/youkioh.github.io"
 
 # Site Author
