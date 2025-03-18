@@ -1,0 +1,69 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// Custom styles
+
+// Enhance heading styles
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+h2 {
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #eaecef;
+}
+
+// Enhance links
+a {
+  text-decoration: none;
+  transition: color 0.2s ease;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Publication styling
+.publication {
+  margin-bottom: 2em;
+  
+  .title {
+    font-weight: bold;
+  }
+  
+  .authors {
+    font-style: italic;
+  }
+  
+  .venue {
+    color: #4a4a4a;
+  }
+  
+  .links {
+    margin-top: 0.5em;
+  }
+}
+
+// Custom button styles
+.btn--custom {
+  background-color: #0056b3;
+  color: #fff;
+  
+  &:hover {
+    background-color: darken(#0056b3, 10%);
+  }
+}
+
+// Profile image enhancements
+.author__avatar img {
+  border-radius: 50%;
+  border: 3px solid #f2f3f3;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}

@@ -18,21 +18,91 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Sungsu Ahn CV
+title: "Sungsu Ahn | Researcher & Developer"
 email: sungsu_ahn@korea.ac.kr
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >- 
+  Personal website of Sungsu Ahn, showcasing research, projects, 
+  publications, and professional experience in computer science and AI.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: NULL
-github_username:  youkioh
+github_username: youkioh
 
 # Build settings
 theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+locale: "en-US"
+repository: "youkioh/youkioh.github.io"
+
+# Site Author
+author:
+  name             : "Sungsu Ahn"
+  avatar           : "/assets/images/profile.jpg" 
+  bio              : "Researcher at Korea University"
+  location         : "Seoul, South Korea"
+  email            : sungsu_ahn@korea.ac.kr
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/youkioh"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "#"
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/youkioh"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:sungsu_ahn@korea.ac.kr"
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: Asia/Seoul
+
+# Plugins
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Collections
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
