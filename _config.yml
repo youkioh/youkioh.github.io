@@ -63,6 +63,20 @@ content:
           My research focuses on the hotness-aware & timeliness-aware memory management with system software support.
           I am also interested in the performance evaluation of CXL-based memory systems.
 
+  - title: Publication # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: IEEE TC
+        # link_text: boringcompany.com
+        sub_title: Top journal in computer architecture
+        caption: 2026
+        description: | # this will include new lines to allow paragraphs
+          **Bauhaus: Restructuring Vector Database for LLM Retrieval on CXL-Based Tiered Memory**
+ 
+          Kyungbin Kim, **Sungsu Ahn**, Wonjung Jeong, Jongmin Kim, Sangun Choi, Minseong Gil, Minseong Kim, Dongha Jeong, Yunjay Hong, Haekang Jung, and Yunho Oh  
+          Accepted at IEEE Transactions on Computers.
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
