@@ -50,7 +50,7 @@ about_profile_image: images/sungsu_profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am a M.S./Ph.D. student at Korea University focusing on computer architectures and system software. 
   My current research interests include **memory systems**, **operating systems**, and **CXL-based memory management** for datacenter.
-  I am most skilled in: <mark>Linux memory management</mark>, <mark>C programming</mark>
+  I am most skilled in: <mark>Linux memory management</mark>, <mark>Linux kernel development</mark>, <mark>CXL memory systems</mark>, <mark>Architecture simulation (Ramulator)</mark>, <mark>C/C++</mark>, <mark>Python</mark>
 
 content:
   - title: Research # Title for the section
