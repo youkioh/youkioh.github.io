@@ -89,6 +89,16 @@ content:
           Accepted for publication at ACM Transactions on Architecture and Code Optimization, November 2026.
 
       - layout: left
+        title: RETRIEVE @ MICRO 2026
+        sub_title: The 1st Workshop on Cross-Domain Architectural Support for Information Retrieval, co-located with MICRO 2026
+        caption: 2026
+        description: | # this will include new lines to allow paragraphs
+          **Playmaker: Socket-Aware Page Allocation for Bandwidth Scaling in CXL Memory Systems**
+
+          Jaehyeok Ryu, Rakie Kim, **Sungsu Ahn**, Wonjung Jeong, Kyungbin Kim, Yunjeong Mun, Honggyu Kim, Woosuk Chung, and Yunho Oh
+          RETRIEVE Workshop, co-located with MICRO 2026, Nov. 1, 2026.
+
+      - layout: left
         title: IEEE TC
         # link_text: boringcompany.com
         sub_title: Top journal in computer architecture
