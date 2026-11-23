@@ -22,7 +22,7 @@ github_username:  youkioh
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jameswgrant
-# linkedin_username: jameswgrant
+linkedin_username: "%EC%84%B1%EC%88%98-%EC%95%88-4409042b1"
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -63,9 +63,31 @@ content:
           My research focuses on the hotness-aware & timeliness-aware memory management with system software support.
           I am also interested in the performance evaluation of CXL-based memory systems.
 
+      - layout: top-middle
+        title: CXL Shared Memory & Cache Coherence for Datacenter Applications
+        description: | # this will include new lines to allow paragraphs
+          I am studying cache coherence for CXL-based shared memory, where multiple hosts access a common memory pool.
+          My research explores how coherence mechanisms affect datacenter applications and how system software and hardware can work together to make shared memory both correct and efficient.
+
+      - layout: top-middle
+        title: Processing-using-DRAM (PuD) for LLM Inference Acceleration
+        description: | # this will include new lines to allow paragraphs
+          I am working on accelerating LLM inference with Processing-using-DRAM (PuD), which performs computation directly inside DRAM arrays.
+          My research focuses on mapping memory-bound LLM inference operations onto PuD to reduce data movement between memory and processors.
+
   - title: Publication # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: ACM TACO
+        sub_title: ACM Transactions on Architecture and Code Optimization
+        caption: 2026
+        description: | # this will include new lines to allow paragraphs
+          **Constructivism: Runtime-Aware CXL Memory Management for Microservices**
+
+          Kieun Park, **Sungsu Ahn**, and Yunho Oh
+          Accepted for publication at ACM Transactions on Architecture and Code Optimization, November 2026.
+
       - layout: left
         title: IEEE TC
         # link_text: boringcompany.com
